@@ -10,7 +10,7 @@ li {
 .slide-wrapper {
     position: relative;
     width: 960px;
-    height: 300px;
+    height: 200px;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -19,7 +19,8 @@ li {
     position: absolute;
     left: 0;
     top: 0;
-    width: 2610px;
+    /* width: 2610px;  js에서 넓이 잡아줌 */
+    transition: left 0.5s ease-out; /*left값이 바뀌는걸 0.5초에 걸쳐서 속도는 끝이 좀 느리게*/
 }
 
 .slides li:not(:last-child) {
