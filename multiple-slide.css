@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.slide-wrapper {
+    position: relative;
+    width: 960px;
+    height: 300px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.slides {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 2610px;
+}
+
+.slides li:not(:last-child) {
+    float: left;
+    margin-right: 30px;
+}
+
+.controls {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.controls span {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 30px;
+    margin: 0 10px;
+}
